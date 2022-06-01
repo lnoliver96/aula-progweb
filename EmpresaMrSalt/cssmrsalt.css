@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0x;
+    border: 0px;
+}
+
+body, h1{
+    margin: 0px;
+}
+
+body{
+    background-color: orange;
+    display: block;
+}
+
+#título{
+    font-family: sans-serif;
+    color: rgb(189, 13, 0);
+    text-align: center;
+    background-color: chocolate; margin: 0px;
+}
+
+#subtítulo{
+    font-family: sans-serif;
+    color: rgb(63, 4, 4);
+    text-align: center;
+    background-color: chocolate; margin: 0px;
+}
+
+
+
+fieldset{
+    border: 0;
+}
+
+form{
+    background-color: orange;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: black;
+    margin-left: 20%;
+    margin-top: 2%;
+    
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+input, select, textarea, button{
+    font-family: sans-serif;
+    font-size: 1em;
+    color: brown;
+    border-radius: 5%;
+}
+
+.campo label, .grupo label{
+    margin-bottom: 0.2cm;
+    color: rgba(97, 12, 12, 0.801);
+    display: block;
+}
+
+fieldset, .grupo, .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid red;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background: rgb(255, 242, 198);
+}
+
+.botao{
+    font-size: 1.2em;
+    background-color: yellow;
+    border: 0;
+    margin-bottom: 1em;
+    color: antiquewhite;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    mask-position: relative;
+    top: 150%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.botao:hover{
+    background: rgb(245, 124, 11);
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+#check{ 
+    display: block;
+    text-align: left;
+    color: rgba(97, 12, 12, 0.801);
+}
+
+div h1, div h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+header{
+    background-image: url(imagens/coxinhas-de-frango.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 550px;
+    background-color: black;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    font-family : -apple-system , BlinkMacSystemFont ,  'Segoe UI' , Roboto , Oxygen , Ubuntu , Cantarell ,  'Open Sans' ,  'Helvetica Neue' , sans-serif;
+    font-size : 100px;
+    color : white;
+    position : relative;
+    top : 45%  
+    
+}
